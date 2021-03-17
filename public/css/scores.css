@@ -1,0 +1,27 @@
+table {
+	margin-top: 2rem;
+	border: 2px #0AB9E5 solid;
+	border-collapse: collapse;
+	width: 45%;
+	color: #3284CB;
+}
+
+th {
+	font-weight: bold;
+}
+
+td {
+	text-align: center;
+}
+
+td, th {
+	border: 1px #0AB9E5 solid;
+}
+
+tr {
+	border: 1px #0AB9E5 solid;
+}
+
+tr:nth-child(even) {
+	background-color: #CDE3F6;
+}

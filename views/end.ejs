@@ -1,0 +1,22 @@
+<%- include("partials/header.ejs") -%>
+  <link rel="stylesheet" href="/css/end.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="end" class="flex-column flex-center">
+  			<h1 id="end-score-text">You scored:</h1>
+  			<h1 id="end-score"><%- userScore  %></h1>
+  			<h2 id="high-score">High Score: <%- highScore  %></h2>
+  		  <form class="flex-column flex-center" action="/end" method="post">
+  				<input type="text" id="username" name="username" placeholder="username" required>
+          <input type="hidden" name="score" value=<%- userScore  %> id="hidden">
+  			  <button type="submit" id="submit-button" class="btn">Save</button>
+  			</form>
+  		  <a class="btn" href="/game">Play Again</a>
+  		  <a class="btn" href="/">Home</a>
+  		</div>
+    </div>
+  	<!-- <script src="/js/end.js"></script> -->
+  </body>
+</html>

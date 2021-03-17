@@ -1,0 +1,20 @@
+input {
+	width: 10rem;
+}
+
+#submit-button {
+	width: 10rem;
+	height: 3rem;
+	font-weight: bold;
+	color: white;
+	background-color: #0AB9E5;
+}
+
+#end-score-text {
+	margin-bottom: 0.5rem;
+}
+
+#end-score {
+	margin-top: 0.1rem;
+	font-size: 4rem;
+}

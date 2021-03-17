@@ -1,0 +1,103 @@
+:root {
+	background-color: aliceblue;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4 {
+	margin-bottom: 1rem;
+}
+
+h1, h2 {
+	margin-bottom: 3rem;
+	color: #0AB9E5;
+}
+
+
+
+/* container takes up entire height and width, allowing it to be centered on the screen */
+.container {
+	width: 100vw;
+	height: 90vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	padding: 2rem;
+}
+
+.container > * {
+	width: 100%;
+}
+
+.footer {
+	height: 10vh;
+	color: aliceblue;
+	background-color: #0AB9E5;
+}
+
+.fa {
+	font-size: 36px;
+	text-decoration: none;
+	color: aliceblue;
+	margin: 1% 1%;
+}
+
+.copyright {
+	margin-top: 1.5%;
+	margin-right: 1%;
+	float: right;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-center {
+	justify-content: center;
+	align-items: center;
+}
+
+.btn {
+	color: #0AB9E5;
+	background-color: white;
+	font-size: 1.4rem;
+	border: 0.1rem #0AB9E5 solid;
+	border-radius: 5px;
+	width: 20rem;
+	margin: 1rem;
+	text-align: center;
+	text-decoration: none;
+}
+
+.btn:hover {
+	cursor: pointer;
+	box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+}
+
+.hud {
+	font-size: 1.5rem;
+	display: flex;
+	color: white;
+	position: absolute;
+	justify-content: space-between;
+	left: 0;
+	top: 0;
+	height: 100px;
+	width: 100vw;
+	background-color: #3284CB;
+	padding: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.hud-item {
+	height: 100%;
+	margin: 0 auto;
+}
